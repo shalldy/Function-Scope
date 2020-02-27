@@ -22,5 +22,5 @@ console.log(i); //in console it gets error, referenceError
   for(var i=0;i<10;i++){
     console.log(i);
   }
- ()) //--call function with () doesn't need to declare like test();
-}
+}()) //--call function with () doesn't need to declare like test();
+
